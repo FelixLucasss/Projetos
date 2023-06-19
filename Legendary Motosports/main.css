@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+:root{
+    --cor1: rgb(236, 236, 236);
+    --cor2: rgb(107, 107, 107);
+    --cor3: rgb(77, 0, 0);
+    --cor4: rgb(197, 0, 0);
+    --cor5: rgb(143, 0, 0);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
