@@ -15,3 +15,17 @@
     margin: 0px;
     padding: 0px;
 }
+header{
+    background-color: black;
+    background-image: url;
+}
+header h1 {
+    font-family: 'Tangerine';
+    font-weight: bold;
+    font-size: 10em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    -webkit-text-fill-color: transparent;
+  }
+  
