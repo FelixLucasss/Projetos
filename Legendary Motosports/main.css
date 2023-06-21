@@ -9,6 +9,8 @@
     --cor3: rgb(51, 0, 0);
     --cor4: rgb(173, 7, 7);
     --cor5: rgb(143, 0, 0);
+    --cor6: rgba(255, 255, 255, 0);
+    --cor7: rgba(255, 255, 255, 0.486);
     --font1: 'Tangerine', cursive;
     --font2: Arial, Helvetica, sans-serif;
 }
@@ -18,7 +20,32 @@
 }
 html{
     background-color: var(--cor5);
-    padding: 5px;
+    padding: 5px 0px;
+}
+header{
+    height: 500px;
+    background-color: black;
+    background-image: url(imagens/gta-5-mods-4k-z4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+header img{
+    width: 40vw;
+    position: relative;
+    top: 7vh;
+    left: 17vh;
+}
+header p{
+    font-family: var(--font2);
+    font-weight: bold;
+    font-size: 2vh;
+    position: relative;
+    top: 7vh;
+    left: 40vh;
+}
+nav{
+    display: inline-block;
 }
 main{
     background-image: url(imagens/backgroundmetal.jpg);
@@ -32,16 +59,36 @@ main section{
     grid-gap: 20px; /* Define um espaçamento de 20px entre as divs */
     background-color: var(--cor3);
     margin: auto;
-    padding: 0px;
+    padding: 10px 10px;
     max-width: 1400px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.541) 7px 6px 7px 2px;
 }
 div{
-    padding: 0px;
+    padding: 0px 0px;
     margin: 0px;
-    background-color: white;
+    background-image: linear-gradient(to bottom, var(--cor6),var(--cor7), var(--cor1));
+    width: 400px;
 }
 div img{
-    width: 387px;
+    width: 100%;
+    height: auto;
+}
+
+main a{
+    display: block;
+    background-color: var(--cor5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+main a:hover{
+    background-color: var(--cor4);
+}
+footer{
+    background-color: black;
+    margin-top: 10px;
+    color: white;
 }
