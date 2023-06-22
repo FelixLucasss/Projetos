@@ -48,6 +48,14 @@ header p {
     top: 7vh;
     left: 18vw;
 }
+#p1{
+    color: rgb(156, 4, 4);
+    text-shadow: 2px 1px 2px 1px black;
+}
+#p2{
+    color: rgb(185, 185, 185);
+    text-shadow: 2px 1px 2px 1px black;
+}
 main{
     background-image: url(../imagens/backgroundmetal.jpg);
     background-repeat: no-repeat;
@@ -65,6 +73,53 @@ main section#sec1{
     box-shadow: rgba(0, 0, 0, 0.541) 7px 6px 7px 2px;
     position: relative;
     top: -70px;
+}
+.cores{
+    padding: 20px;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin: 10px;
+}
+.cores:hover{
+    border: 2px solid white;
+}
+#cor1{
+    background-color: red;
+}
+#cor2{
+    background-color: rgb(255, 0, 221);
+}
+#cor3{
+    background-color: yellow;
+}
+#cor4{
+    background-color: orange;
+}
+#cor5{
+    background-color: rgb(0, 255, 0);
+}
+#cor6{
+    background-color: blue;
+}
+#cor7{
+    background-color: black;
+}
+#cor8{
+    background-color: white;
+}
+#buy{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(160, 0, 0);
+    text-align: center justify;
+    text-decoration: none;
+    color: white;
+}
+#buy:hover{
+    border: 2px solid white;
+    background-color: red;
 }
 footer{
     background-color: black;

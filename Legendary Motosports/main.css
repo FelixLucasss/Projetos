@@ -48,6 +48,14 @@ header p {
     top: 7vh;
     left: 18vw;
 }
+#p1{
+    color: rgb(156, 4, 4);
+    text-shadow: 2px 1px 2px 1px black;
+}
+#p2{
+    color: rgb(185, 185, 185);
+    text-shadow: 2px 1px 2px 1px black;
+}
 nav{
     display: inline-block;
 }
