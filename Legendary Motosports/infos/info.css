@@ -68,11 +68,49 @@ main section#sec1{
     margin: auto;
     padding: 10px 10px;
     max-width: 1400px;
+    min-height: 1300px;
     border-color: red;
     border-style: double;
     box-shadow: rgba(0, 0, 0, 0.541) 7px 6px 7px 2px;
     position: relative;
     top: -70px;
+}
+#text{
+    color: white;
+    float: left;
+    width: 35%;
+    font-family: var(--font2);
+    font-size: 1.7em;
+    margin-bottom: 10vh;
+    text-shadow: 10px 10px 10px 10px black;
+}
+#text img{
+    width: 150px;
+}
+#fotos{
+    float: right;
+    width: 65%;
+}
+#fotos img{
+    display: block;
+    width: 100%;
+}
+#fotos2 img{
+    display: inline-block;
+    width: 49.7%;
+    margin-top: 5px;
+}
+#corcarro{
+    color: white;
+    font-family: var(--font2);
+}
+#divcor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    float: left;
+    width: 35%;
 }
 .cores{
     padding: 20px;
@@ -84,6 +122,7 @@ main section#sec1{
 }
 .cores:hover{
     border: 2px solid white;
+    margin: -2px;
 }
 #cor1{
     background-color: red;
@@ -109,17 +148,68 @@ main section#sec1{
 #cor8{
     background-color: white;
 }
-#buy{
-    margin: 10px;
-    padding: 5px;
+#buy {
+    padding: 10px;
     background-color: rgb(160, 0, 0);
-    text-align: center justify;
+    text-align: center;
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    float: left;
+    width: 33%;
 }
-#buy:hover{
+#buy:hover {
     border: 2px solid white;
+    margin: -2px;
     background-color: red;
+}
+#statusposition {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#status {
+  padding: 10px;
+  border-radius: 5px;
+}
+#status h4 {
+  font-family: var(--font2);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#status h5 {
+  font-family: var(--font2);
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.power-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.power-bar h5 {
+  margin-right: 10px;
+  width: 150px;
+}
+.power-bar progress {
+  flex-grow: 1;
+  height: 10px;
+}
+.power-bar progress::-webkit-progress-bar {
+  background-color: #ccc;
+}
+.power-bar progress::-webkit-progress-value {
+  background-color: rgb(160, 0, 0);
+}
+.power-bar progress::-moz-progress-bar {
+  background-color: rgb(160, 0, 0);
 }
 footer{
     background-color: black;
