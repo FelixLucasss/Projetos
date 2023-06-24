@@ -102,6 +102,8 @@ section#sec2{
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Define 3 colunas com largura igual */
     grid-gap: 20px; /* Define um espaçamento de 20px entre as divs */
+    margin-top: 20px;
+    margin-left: 40px;
 }
 div{
     padding: 0px 0px;
